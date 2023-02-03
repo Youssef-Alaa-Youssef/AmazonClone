@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+:root {
+    --succuss-color:#2ecc2e;
+    --error-color:#e74c3c;
+}
+
+.form-controls input:focus{
+    outline: 0;
+    border-color: #777;
+
+}
+.form-controls.succuss input{
+    border-color: var(--succuss-color);
+}
+.form-controls.error input{
+    border-color: var(--error-color);
+}
+
+.form-controls small {
+    color: var(--error-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+.form-controls.error small {
+    visibility: visible;
+}

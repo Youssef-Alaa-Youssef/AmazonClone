@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center m-3">
+            <div class="col-lg-4">
+                <div class="image w-100 text-center">
+                    <img src="amazonLogin.png" class="w-50 h-25" alt="">
+                </div>
+                <div class="alert alert-danger mt-2 d-none" id="loginRequiredLabel">Incorrect Email</div>
+                <div class="Form border border-dark p-5 rounded-4">
+                    <h1 class=" fw-bolder mb-3"> Sign in</h1>
+                    <form id="login">
+                        <div class="mb-3 form-controls">
+                            <label for="exampleInputEmail1" class="form-label fw-bold">Email or mobile phone
+                                number</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="pass" class="form-label fw-bold">Password</label>
+                            <input type="password" class="form-control" id="pass" aria-describedby="emailHelp">
+
+                        </div>
+                        <button style="background-color: #f4cf73;" type="submit"
+                            class="btn btn-primary w-100 border border-none text-black" id="loginBtn">Continue</button>
+                    </form>
+                    <div class="text-start mt-3">
+                        <p>By creating an account, you agree to Amazon's <span><a href="#">Conditions of
+                                    Use</a></span>
+                            and
+                            <span><a href="#">Privacy Notice.</a></span>
+                        </p>
+                    </div>
+                    <hr class="w-50 mx-auto my-2">
+                    <ul class="navbar-nav   ">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-primary " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Need help?
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Forgot your password?</a></li>
+                                <li><a class="dropdown-item" href="#">Other issues with Sign-In</a></li>
+                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">
+        <span>--------- New to Amazon ? ----------</span>
+
+    </p>
+    <div class="container">
+        <div class="row justify-content-center m-3">
+            <div class="col-lg-4">
+                <div class="create">
+                    <a type="submit" href="signIn.html" class="btn btn-light w-100 border border-none text-black">Create
+                        your amazon
+                        account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div style="background-color:#fafafa;" class="row justify-content-center p-5">
+            <div class="footer text-center" style="height: 19vh !important;">
+
+                <div class="py-3">
+                    <a href="#"><span class="pe-3">Conditions of Use</span></a>
+                    <a href="#"><span class="pe-3">Privacy Notice</span></a>
+                    <a href="#"><span>Help</span></a>
+                </div>
+
+                <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="jquery-3.6.3.min.js"></script>
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <script src="login.js"></script>
+
+</body>
+
+
+</html>
